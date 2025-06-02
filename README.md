@@ -32,3 +32,24 @@ FlickOS is more than just a toy OS — it’s a platform for **learning**, **bui
 
 ## 🧱 Architecture
 
+
+---
+
+## 🚀 Quickstart
+
+### Prerequisites
+
+- `nasm` (assembler)
+- `gcc` (cross-compiler i686-elf recommended)
+- `make`
+- `qemu` or `bochs` (virtual machine for testing)
+
+### Clone & Build
+
+```bash
+git clone https://github.com/YOUR-USERNAME/flickos.git
+cd flickos
+make
+make run
+
+
